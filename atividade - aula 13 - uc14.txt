@@ -1,0 +1,24 @@
+Atividade
+Criar um formulário de Fale conosco para o sistema da escola senac tech, e acrescentar no menu de todas as outras páginas, o link para o formulário....dica de nome para página, "Fale Conosco".
+
+Dados do formulário:
+Nome completo
+UF
+Cidade
+E-mail
+Confirme e-mail
+telefone
+Modalidade
+Assunto
+Mensagem
+CPF
+
+
+Ao clicar no botão Enviar, direcionar para a página index.html
+Dica: Utilizar tabela para alinhar o formulário
+
+Enviar projeto inteiro por e-mail
+mglmatiolla@gmail.com
+Assunto: Atividade 2 - formulário - nome da turma
+Corpo do e-mail:
+Nome do aluno + anexo projeto
