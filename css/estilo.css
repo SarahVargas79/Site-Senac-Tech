@@ -1,0 +1,52 @@
+.logosenac{
+	width: 175px;
+	height: 65px;
+	margin-left: 95px;
+}
+
+#imghome{
+	width: 100%;
+	height: 345px;
+}
+
+.c1{
+	font-family: Arial black;
+	 letter-spacing: 2px;
+	 font-size: 30px;
+}
+
+.c2{
+	font-family: Georgia;
+	color: #2F4F4F;
+}
+
+.pjustificado{
+	text-align: justify;
+	font-family: Verdana;
+	font-size:16px;
+}
+
+#dps{
+	background-color: #7FFFD4;
+	padding: 20px 20px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+#dps h2{
+	margin-left: 3%;
+	color: orange;
+}
+
+#dps img{
+	width: 120px; 
+	height: 120px; 
+	margin-left: 3%;
+	border-radius: 50%;
+	
+}
+
+#dps p{
+	font-family: Verdana;
+	font-size:16px;
+}
