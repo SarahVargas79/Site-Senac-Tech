@@ -1,18 +1,36 @@
-.logosenac{
+#logosenac{
 	width: 175px;
 	height: 65px;
-	margin-left: 95px;
 }
 
-#imghome{
-	width: 100%;
-	height: 345px;
+#cabecalho{	
+	padding-left: 95px;
+	padding-right: 95px;
+}
+
+#cabecalho a{
+	float: right;
+}
+
+#imgwhats{
+	width: 27px; 
+	height: 27px;
+	padding-top: 30px;
+	padding-left: 6px;
+}
+
+#imgredes{
+	width: 25px; 
+	height: 25px;
+	padding-top: 30px;
+	padding-left: 8px;
 }
 
 .c1{
-	font-family: Arial black;
-	 letter-spacing: 2px;
-	 font-size: 30px;
+	margin-top: 3%;
+	font-family: Arial;
+	font-size: 30px;
+	letter-spacing: 2px;
 }
 
 .c2{
@@ -20,33 +38,218 @@
 	color: #2F4F4F;
 }
 
+#pnome{
+	font-size: 24px;
+}
+
 .pjustificado{
 	text-align: justify;
 	font-family: Verdana;
-	font-size:16px;
+	font-size: 16px;
 }
 
 #dps{
-	background-color: #7FFFD4;
-	padding: 20px 20px;
+	background-color: #FFD700;
+	padding-top: 1px;
+	padding-bottom: 20px; 
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
 
 #dps h2{
-	margin-left: 3%;
-	color: orange;
+	margin-left: 20%;
+	color: #FF4500;
+	font-size: 42px;
 }
 
 #dps img{
 	width: 120px; 
 	height: 120px; 
-	margin-left: 3%;
+	margin-left: 20%;
 	border-radius: 50%;
 	
 }
 
 #dps p{
+	display: inline-block;
+	padding-left: 30px;
+}
+
+#c3{
+	background-color: #0000FF;
+	height: 5px;
+}
+
+
+/*
+margin: 0 auto - dizemos ao navegador que as margens superior e inferior são iguais a 0 e as da esquerda e direita são automáticas.
+display: block - Faz com que o elemnto HTML seja renderizado como bloco
+Se usa margin: 0 auto e display: block - significa que dará margens automáticas na esquerda e na direita para centralizar o bloco horizontalmente na tela. 
+*/
+#videohome {
+	display: block;
+	margin: 0 auto;
+	width: 715px;
+	height: 415px;
+	padding: 20px 20px;
+	border-radius: 60px;
+}
+
+#c4{
+	text-align: center;
+	margin-bottom: 3%;
+	padding-top: 2%;
+	font-family: Arial;
+	font-size: 30px;
+}
+
+#imgpids{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 2%;
+	width: 400px; 
+	height: 250px;
+	border-radius: 10px;
+}
+
+#pjustificado{
+	display: flex;
+	justify-content: center;
+	text-align: justify;
 	font-family: Verdana;
-	font-size:16px;
+	font-size: 14px;
+}
+
+.pjustificado2{
+	display: flex;
+	justify-content: center;
+	text-align: justify;
+	margin-bottom: 4%;
+	font-family: Verdana;
+	font-size: 16px;
+}
+
+#c5{
+	text-align: center;
+	font-family: Arial;
+	font-size: 30px;
+}
+
+#imgdual{
+	text-align: center;
+}
+
+#imgdual img{
+	padding-bottom: 5%;
+	padding-left: 1%;
+	width: 500px;
+	height: 300px;
+}
+
+footer{
+	padding: 20px 40px;
+	background-color: #1518E7;
+}
+
+footer span{
+	display: inline-block;
+	padding-left: 32%;
+}
+
+footer img{
+	width: 175px; 
+	height: 65px;
+}
+
+footer p{
+	padding-left: 30px;
+	float: right;
+	color: white;
+}
+
+/*Código PHP*/
+.login{
+	font-family: Georgia black;
+	color: #E26700;
+	text-decoration: none;
+}
+
+.login:hover{
+	color: #FCA964;
+}
+
+.mensagem{
+	font-family: Georgia black;
+	color: #0073D8;
+}
+
+@media (max-width: 1024px){
+	footer span{
+		padding-left: 18%;
+	}
+	
+	footer p{
+		padding-left: 5px;
+	}
+}
+
+@media (max-width: 667px){
+	#cabecalho{ 
+		display: inline;
+		padding-left: 40px;
+	    width: 145px;
+		height: auto;
+	}
+	.c1{
+		font-size: 25px;
+	}
+	.c2{
+		font-size: 16.5px;
+	}
+	span{	
+		margin-left: -10px;
+	}
+	#m1 img{
+		width: 467px;
+		height: 140px;
+	}
+	.pjustificado{
+		font-family: Verdana;
+		font-size: 14px;
+	}
+	#dps h2{
+		font-size: 35px;
+	}
+	#pnome{
+		font-size: 19px;
+	}
+	#c4{
+		font-size: 25px;
+	}
+	#dt{
+		margin-bottom: 25px;
+	}
+	#pjustificado{
+		font-family: Verdana;	
+		font-size: 13px;
+	}
+	.pjustificado2{
+		margin-bottom: 4%;
+		font-family: Verdana;
+		font-size: 14px;
+	}
+	#videohome{
+		width: 400px;
+		height: 260px;
+	}
+	#imgdual img{
+		width: 410px;
+		height: 250px;
+	}
+	footer span{
+		display: flex;
+		padding-left: 40px;
+	    width: 145px;
+		height: auto;
+	}
 }

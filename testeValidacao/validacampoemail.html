@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+	<title>Validação campo de senha</title>
+	<meta charset="UTF-8" />
+	</head>
+<body>
+<form action="#" method="post" >
+Nome:
+<input type="text" name="nome" id="nome" />
+<br>
+E-mail:
+<input type="email" name="email" 
+id="email" onchange="validar()"/>
+<br>
+Confirma E-mail:
+<input type="email" name="confirmaemail" 
+id="confirmaemail" onchange="validar()"/>
+<br>
+<button type="submit">
+Enviar dados
+</button>
+<script>
+function validar(){
+var campo1 = document.getElementById("email");
+var campo2 = document.getElementById("confirmaemail");
+if(campo1.value != campo2.value){
+campo2.setCustomValidity("O e-mail não confere");
+campo2.validity = false;
+}else{
+campo2.setCustomValidity("");
+campo2.validity = true;
+}
+
+}
+
+</script>
+
+</form>
+</body>	
+</html>

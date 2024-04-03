@@ -1,0 +1,80 @@
+#fc1{
+	text-align: center;
+	font-family: Arial;
+	font-size: 25px;
+	color: #BD7500;
+}
+
+fieldset{
+	margin-top: 10px;
+	border: 0;
+	text-align: center;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.dados{
+	margin-bottom: 15px;
+	
+}
+
+.dados label{
+	display: block;
+	margin-bottom: 5px;
+	font-family: Arial;
+	font-size: 17px;
+	color: #474747;
+}
+
+.dados input[type="text"],
+.dados input[type="email"],
+.dados input[type="tel"],
+.dados input[type="password"],
+.dados select,
+.dados textarea{
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	padding: 3px;
+	box-shadow: 10px 10px 8px #888888;
+}
+
+.dados input[type="text"],
+.dados input[type="email"],
+.dados input[type="tel"],
+.dados input[type="password"],
+.dados select,
+.dados textarea{
+	width: 190px;
+}
+
+/*outline- Retirar a formatção padrão do navegador*/
+.dados input:focus, .dados select:focus, .dados textarea:focus{
+	border-color: red;
+	outline: none;
+}
+
+.dados input:hover, .dados select:hover, .dados textarea:hover{
+	border-color: red;
+}
+
+/*text-shadow - Sombreamento no texto*/
+.botao{
+	width: 195px;
+	margin-top: 10px;
+	margin-bottom: 1.5%;
+	padding: 5px 7px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	background-color: #15A7EA;
+	color: white;
+}
+
+.botao:hover{
+	background-color: #34ABE3;
+}
+
+.botao, select{
+	cursor: pointer;
+}
